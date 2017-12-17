@@ -1,5 +1,5 @@
 # STACK
-- ES6
+- ES6 (ES2015)
 - NodeJS
 - ExpressJS
 - MongoDB

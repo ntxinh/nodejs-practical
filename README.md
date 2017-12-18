@@ -15,3 +15,8 @@
 ```bash
 $ npm start
 ```
+
+- Seed data:
+```bash
+$ node seed/contactSeeder.js
+```

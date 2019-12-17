@@ -1,0 +1,27 @@
+.env
+
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+npm-debug.log
+
+# dist
+/dist
+/build
+
+# tests
+/test
+/coverage
+/.nyc_output

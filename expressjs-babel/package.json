@@ -1,0 +1,26 @@
+{
+  "name": "expressjs-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "es5": "node src/index",
+    "es6": "babel-node src/index",
+    "es6:watch": "nodemon --exec babel-node src/index",
+    "es6:build": "babel src --out-dir dist",
+    "es6:serve": "node dist/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

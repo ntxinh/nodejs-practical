@@ -14,7 +14,7 @@
     "@nestjs/common": "^6.10.5",
     "@nestjs/core": "^6.10.5",
     "@nestjs/cqrs": "^6.1.0",
-    "@nestjs/platform-express": "^6.10.5",
+    "@nestjs/platform-express": "^9.2.1",
     "cli-color": "^2.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3"
